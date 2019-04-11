@@ -19,7 +19,7 @@ https://fukuten.connpass.com/event/121948/
     - ドキュメントではブラウザ内でのコーディングですが、今回はVisual Studioを使用しましょう。
     - ユニット6「Web API のアクションをテストする」でのWebAPIのテストは[Postman](https://www.getpostman.com/)などをお使いください。
 
-#### デプロイ編
+#### デプロイ編 (for Windows)
 1. [Azure App Service - アプリのホスティング](https://azure.microsoft.com/ja-jp/services/app-service/)にアクセスし、Microsoftアカウントでログインします。
 2. 「Web Appsを今すぐ試す」をクリックします。
 3. テンプレートは「空のサイト」を選択し、「Create」をクリックします。
@@ -27,5 +27,16 @@ https://fukuten.connpass.com/event/121948/
     - ページは開いたままにしておく。
 5. 「発行プロファイルのダウンロード」をクリックし、`.publishsettings`ファイルをダウンロードします。
 6. Visual Studio 2019の発行機能を使用して、WebAppsにデプロイします。
-    - 参考 [発行設定をインポートして Azure に発行する - Visual Studio](https://docs.microsoft.com/ja-jp/visualstudio/deployment/tutorial-import-publish-settings-azure?view=vs-2019#import-the-publish-settings-in-visual-studio-and-deploy)
+    - 参考 [発行設定をインポートして Azure に発行する](https://docs.microsoft.com/ja-jp/visualstudio/deployment/tutorial-import-publish-settings-azure?view=vs-2019#import-the-publish-settings-in-visual-studio-and-deploy)
+7. URLに再度アクセスし、WebAPIの結果を確認します。
+
+#### デプロイ編 (for Mac)
+1. [Azure App Service - アプリのホスティング](https://azure.microsoft.com/ja-jp/services/app-service/)にアクセスし、Microsoftアカウントでログインします。
+2. 「Web Appsを今すぐ試す」をクリックします。
+3. テンプレートは「空のサイト」を選択し、「Create」をクリックします。
+4. 表示されたURLにアクセスし、既定のページが表示されることを確認します。
+    - ページは開いたままにしておく。
+5. 「Git による複製またはプッシュ」をクリックし、表示されたテキストをコピーして控えておきましょう。
+6. 開発編で作成したプロジェクトフォルダをGitリポジトリとして、Gitプッシュによるデプロイを行います。
+    - 参考 [ローカル Git リポジトリからデプロイする](https://docs.microsoft.com/ja-jp/azure/app-service/deploy-local-git#deploy-your-project)
 7. URLに再度アクセスし、WebAPIの結果を確認します。

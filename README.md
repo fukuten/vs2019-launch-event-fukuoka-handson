@@ -16,8 +16,8 @@ https://fukuten.connpass.com/event/121948/
 #### 開発編
 1. [Microsoft Learn](https://docs.microsoft.com/ja-jp/learn/)にアクセスし、Microsoftアカウントでログインします。
 2. [ASP.NET Core を使用して Web API を構築する](https://docs.microsoft.com/ja-jp/learn/modules/build-web-api-net-core/)のハンズオンを進める。
-  - ドキュメントではブラウザ内でのコーディングですが、今回はVisual Studioを使用しましょう。
-  - ユニット6「Web API のアクションをテストする」でのWebAPIのテストは[Postman](https://www.getpostman.com/)などをお使いください。
+    - ドキュメントではブラウザ内でのコーディングですが、今回はVisual Studioを使用しましょう。
+    - ユニット6「Web API のアクションをテストする」でのWebAPIのテストは[Postman](https://www.getpostman.com/)などをお使いください。
 
 #### デプロイ編
 1. [Azure App Service - アプリのホスティング](https://azure.microsoft.com/ja-jp/services/app-service/)にアクセスし、Microsoftアカウントでログインします。

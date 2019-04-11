@@ -24,8 +24,8 @@ https://fukuten.connpass.com/event/121948/
 2. 「Web Appsを今すぐ試す」をクリックします。
 3. テンプレートは「空のサイト」を選択し、「Create」をクリックします。
 4. 表示されたURLにアクセスし、既定のページが表示されることを確認します。
-  - ページは開いたままにしておく。
+    - ページは開いたままにしておく。
 5. 「発行プロファイルのダウンロード」をクリックし、`.publishsettings`ファイルをダウンロードします。
 6. Visual Studio 2019の発行機能を使用して、WebAppsにデプロイします。
-  - 参考 [発行設定をインポートして Azure に発行する - Visual Studio](https://docs.microsoft.com/ja-jp/visualstudio/deployment/tutorial-import-publish-settings-azure?view=vs-2019#import-the-publish-settings-in-visual-studio-and-deploy)
+    - 参考 [発行設定をインポートして Azure に発行する - Visual Studio](https://docs.microsoft.com/ja-jp/visualstudio/deployment/tutorial-import-publish-settings-azure?view=vs-2019#import-the-publish-settings-in-visual-studio-and-deploy)
 7. URLに再度アクセスし、WebAPIの結果を確認します。

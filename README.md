@@ -40,3 +40,6 @@ https://fukuten.connpass.com/event/121948/
 6. 開発編で作成したプロジェクトフォルダをGitリポジトリとして、Gitプッシュによるデプロイを行います。
     - 参考 [ローカル Git リポジトリからデプロイする](https://docs.microsoft.com/ja-jp/azure/app-service/deploy-local-git#deploy-your-project)
 7. URLに再度アクセスし、WebAPIの結果を確認します。
+
+#### 参考コンテンツ
+- [Visual Studio で Azure に Web アプリを発行する - Learn | Microsoft Docs](https://docs.microsoft.com/ja-jp/learn/modules/publish-azure-web-app-with-visual-studio/)

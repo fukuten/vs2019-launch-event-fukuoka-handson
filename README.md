@@ -39,6 +39,7 @@ https://fukuten.connpass.com/event/121948/
 5. 「Git による複製またはプッシュ」をクリックし、表示されたテキストをコピーして控えておきましょう。
 6. 開発編で作成したプロジェクトフォルダをGitリポジトリとして、Gitプッシュによるデプロイを行います。
     - 参考 [ローカル Git リポジトリからデプロイする](https://docs.microsoft.com/ja-jp/azure/app-service/deploy-local-git#deploy-your-project)
+    - **注意 GitのURLに含まれる `$` は `%24` に置き換えてください。（URLエンコード）**
 7. URLに再度アクセスし、WebAPIの結果を確認します。
 
 #### 参考コンテンツ

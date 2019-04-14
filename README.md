@@ -44,3 +44,6 @@ https://fukuten.connpass.com/event/121948/
 
 #### 参考コンテンツ
 - [Visual Studio で Azure に Web アプリを発行する - Learn | Microsoft Docs](https://docs.microsoft.com/ja-jp/learn/modules/publish-azure-web-app-with-visual-studio/)
+
+### ハンズオンが早く終わった方へ
+[Microsoft Learn](https://docs.microsoft.com/ja-jp/learn/)には他にも多くのコンテンツがあるので、興味あるものにチャレンジしてみましょう♪
